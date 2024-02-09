@@ -3,4 +3,5 @@
 =======
 game for fun
 
-![Screenshot (72)](https://github.com/NoorainAhmad/whack-a-mole/assets/132768174/b5890ddc-2517-47ba-bc20-d76f4eceb01d)
+
+![Screenshot (72)](https://github.com/NoorainAhmad/whack-a-mole/assets/132768174/e20f9d4b-505f-479d-8014-3c67f9c157cf)
