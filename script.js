@@ -39,8 +39,15 @@ function startGame() {
     timeUp = false;
     score = 0;
     peep();
-    setTimeout(() => timeUp = true, 15000) //show random moles for 15 seconds
+    setTimeout(() => {
+        timeUp = true;
+        // Display game end message with final score in a div element
+        const gameEndMessage = document.createElement('div');
+        gameEndMessage.textContent = `Game over! Your final score is ${score}`;
+        document.body.appendChild(gameEndMessage);
+    }, 15000); // Show random moles for 15 seconds
 }
+
 
 function wack(e){
     if(!e.isTrusted) return; //** new thing I learned */
